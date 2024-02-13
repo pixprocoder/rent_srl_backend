@@ -1,0 +1,42 @@
+{
+  "kind": "collectionType",
+  "collectionName": "bookings",
+  "info": {
+    "singularName": "booking",
+    "pluralName": "bookings",
+    "displayName": "Booking",
+    "description": "This is booking"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "userId": {
+      "type": "uid"
+    },
+    "PickupDate": {
+      "type": "datetime",
+      "required": true
+    },
+    "ReturnDate": {
+      "type": "datetime",
+      "required": true
+    },
+    "Category": {
+      "type": "enumeration",
+      "enum": ["Scooter", "Car"],
+      "required": true,
+      "default": "Car"
+    },
+    "paymentInfo": {
+      "type": "json"
+    },
+    "address": {
+      "type": "json"
+    },
+    "transactionId": {
+      "type": "string"
+    }
+  }
+}

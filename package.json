@@ -1,0 +1,38 @@
+{
+  "name": "strapi-app",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A Strapi application",
+  "license": "MIT",
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "scripts": {
+    "build": "strapi build",
+    "dev": "strapi develop",
+    "start": "strapi start",
+    "strapi": "strapi"
+  },
+  "dependencies": {
+    "@strapi/plugin-cloud": "^4.15.5",
+    "@strapi/plugin-content-manager": "^4.15.5",
+    "@strapi/plugin-i18n": "^4.15.5",
+    "@strapi/plugin-users-permissions": "^4.15.5",
+    "@strapi/strapi": "^4.15.5",
+    "better-sqlite3": "8.6.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-router-dom": "5.3.4",
+    "styled-components": "5.3.3"
+  },
+  "devDependencies": {
+    "pg": "^8.11.3"
+  },
+  "engines": {
+    "node": ">=18.0.0 <=20.x.x",
+    "npm": ">=6.0.0"
+  },
+  "strapi": {
+    "uuid": "fdc3cf88-3d86-402b-9220-94222e7950bd"
+  }
+}

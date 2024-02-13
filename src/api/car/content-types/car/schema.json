@@ -1,0 +1,57 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cars",
+  "info": {
+    "singularName": "car",
+    "pluralName": "cars",
+    "displayName": "car",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string",
+      "required": true,
+      "minLength": 2
+    },
+    "Title": {
+      "type": "text",
+      "required": true
+    },
+    "Image": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Price": {
+      "type": "float",
+      "required": true
+    },
+    "Manufacturer": {
+      "type": "string"
+    },
+    "Available": {
+      "type": "boolean",
+      "required": true
+    },
+    "Year": {
+      "type": "string"
+    },
+    "FuelType": {
+      "type": "string",
+      "required": true
+    },
+    "Features": {
+      "type": "json"
+    }
+  }
+}
