@@ -20,8 +20,9 @@ Start your Strapi application with autoReload disabled. [Learn more](https://doc
 npm run start
 # or
 yarn start
-```
 
+```
+edited 
 ### `build`
 
 Build your admin panel. [Learn more](https://docs.strapi.io/dev-docs/cli#strapi-build)
